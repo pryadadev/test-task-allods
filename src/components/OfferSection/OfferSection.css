@@ -1,0 +1,85 @@
+:root {
+  --offer-section-height: 1029px;
+}
+
+.offer-section {
+  height: var(--offer-section-height);
+  margin-top: 31px;
+  overflow: hidden;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-section > .background {
+  width: 1920px;
+  height: 1024px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: url("/public/assets/offer-background.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer-section > .glow-line {
+  width: 1977px;
+  height: 172px;
+
+  position: absolute;
+  bottom: 0;
+  left: -74px;
+
+  background-image: url("/public/assets/glow-line.png");
+  background-position: 0px -74.312px;
+  background-size: 100% 395.711%;
+  background-repeat: no-repeat;
+}
+
+.offer-section > .section-grid {
+  width: 1920px;
+  height: var(--offer-section-height);
+
+  display: grid;
+  grid-template-columns: 960px 960px;
+}
+
+.offer-section > .section-grid > .vito-container {
+  height: fit-content;
+  width: fit-content;
+  margin-right: 160px;
+  justify-self: flex-end;
+  position: relative;
+}
+
+.offer-section > .section-grid > .vito-container > .vito {
+  width: 441px;
+  height: 891px;
+
+  position: relative;
+
+  background-image: url("/public/assets/vito.png");
+  background-position: -1032.641px -857.78px;
+  background-size: 592.395% 293.076%;
+  background-repeat: no-repeat;
+}
+
+.offer-section > .section-grid > .vito-container > .vito-backlight {
+  width: 680px;
+  height: 686px;
+
+  position: absolute;
+  top: 182px;
+  left: -134px;
+
+  border-radius: 686px;
+  border: 1px solid #000;
+  opacity: 0.2;
+  background: #416DF4;
+  mix-blend-mode: lighten;
+  filter: blur(100px);
+}

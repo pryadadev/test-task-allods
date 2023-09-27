@@ -1,0 +1,178 @@
+:root {
+  --promo-section-height: 892px;
+}
+
+.promo-section {
+  height: var(--promo-section-height);
+  overflow: hidden;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.promo-section > .background {
+  width: 1974px;
+  height: var(--promo-section-height);
+
+  position: absolute;
+  top: 0;
+  left: -44px;
+
+  background-image: url("/public/assets/promo-background.png");
+  background-position: 0px -67.57px;
+  background-size: 100% 148.11%;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .shading-left,
+.promo-section > .shading-right {
+  width: 462px;
+  height: 934px;
+
+  position: absolute;
+  top: -11px;
+
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.promo-section > .shading-left {
+  left: 0;
+  background-image: url("/public/assets/shading.png");
+}
+
+.promo-section > .shading-right {
+  right: -23px;
+  transform: rotate(180deg);
+  background-image: url("/public/assets/shading.png");
+}
+
+.promo-section > .shading-bottom {
+  width: 380px;
+  height: 2609px;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: -1119px;
+  left: 700px;
+
+  background-image: url("/public/assets/shading.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.promo-section > .mafia-costume-female,
+.promo-section > .mafia-costume-male {
+
+}
+
+.promo-section > .mafia-costume-female {
+  width: 577px;
+  height: 876px;
+
+  position: absolute;
+  top: 16px;
+  left: 0;
+
+  background-image: url("/public/assets/mafia-costume.png");
+  background-position: -621.607px -912.055px;
+  background-size: 471.353% 310.498%;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .mafia-costume-male {
+  width: 678px;
+  height: 876px;
+
+  position: absolute;
+  top: 16px;
+  left: 1218px;
+
+  background-image: url("/public/assets/mafia-costume.png");
+  background-position: -1182.315px -908.424px;
+  background-size: 401.137% 310.498%;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .glow-line {
+  width: 1977px;
+  height: 172px;
+
+  position: absolute;
+  bottom: 0;
+  left: -115px;
+
+  background-image: url("/public/assets/glow-line.png");
+  background-position: 0px -74.312px;
+  background-size: 100% 395.711%;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .glow-center {
+  width: 2006px;
+  height: 892px;
+
+  position: absolute;
+  top: 0;
+  left: 79px;
+
+  background-image: url("/public/assets/glow-center.png");
+  background-position: 0px -11.198px;
+  background-size: 100% 153.408%;
+  background-repeat: no-repeat;
+  mix-blend-mode: screen;
+}
+
+.promo-section > .logo {
+  width: 376px;
+  height: 348px;
+
+  position: absolute;
+  top: -30px;
+  left: 772px;
+
+  background-image: url("/public/assets/logo.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .boxes {
+  width: 766px;
+  height: 525px;
+
+  position: absolute;
+  top: 234px;
+  left: 551px;
+
+  background-image: url("/public/assets/boxes.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promo-section > .text-container {
+  margin-bottom: 47px;
+  position: relative;
+  text-align: center;
+}
+
+.promo-section > .text-container > .header {
+  height: 44px;
+  font-size: 42px;
+  line-height: 49.22px;
+}
+
+.promo-section > .text-container > .slogan {
+  height: 39px;
+  margin-top: 25px;
+
+  font-size: 20px;
+  line-height: 23.44px;
+}

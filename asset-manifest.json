@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-task-allods/static/css/main.e1b00b99.css",
+    "main.js": "/test-task-allods/static/js/main.72addbd2.js",
+    "static/media/mafia-costume.png": "/test-task-allods/static/media/mafia-costume.33de7931c01c7bd46732.png",
+    "static/media/promo-background.png": "/test-task-allods/static/media/promo-background.14a39d0d09aa94018a8d.png",
+    "static/media/boxes.png": "/test-task-allods/static/media/boxes.1f9bea56658ec2813ecf.png",
+    "static/media/box-vito.png": "/test-task-allods/static/media/box-vito.61427c04624d0f0a3e82.png",
+    "static/media/vito.png": "/test-task-allods/static/media/vito.9a37022783042a114f34.png",
+    "static/media/glow-center.png": "/test-task-allods/static/media/glow-center.b6d521f14d071bc67355.png",
+    "static/media/offer-background.png": "/test-task-allods/static/media/offer-background.8fe3fd1785fd551531c4.png",
+    "static/media/logo-crop.png": "/test-task-allods/static/media/logo-crop.637b944bdcf789c915e2.png",
+    "static/media/glow-line.png": "/test-task-allods/static/media/glow-line.891279c49c260f961327.png",
+    "static/media/shading.png": "/test-task-allods/static/media/shading.67b46d4b1517a919a228.png",
+    "index.html": "/test-task-allods/index.html",
+    "main.e1b00b99.css.map": "/test-task-allods/static/css/main.e1b00b99.css.map",
+    "main.72addbd2.js.map": "/test-task-allods/static/js/main.72addbd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1b00b99.css",
+    "static/js/main.72addbd2.js"
+  ]
+}

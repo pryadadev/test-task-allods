@@ -83,3 +83,170 @@
   mix-blend-mode: lighten;
   filter: blur(100px);
 }
+
+.offer-section > .section-grid > .right-side-flexbox {
+  position: relative;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .header {
+  height: 44px;
+  margin-top: 27px;
+
+  color: #416DF4;
+  font-size: 30px;
+  line-height: 35.16px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table {
+  width: 632px;
+  height: fit-content;
+  margin-top: 35px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .header {
+  width: 100%;
+  height: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 11px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .header > .name {
+  width: 140px;
+  height: 100%;
+
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  background: rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #671D00;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body {
+  width: 100%;
+  height: fit-content;
+  margin-top: 9px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body > .row {
+  width: 100%;
+  height: 74px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 1px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body > .row > .image {
+  height: 100%;
+  flex: 0 0 74px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body > .row > .label {
+  height: 100%;
+  flex: 0 0 257px;
+  padding: 0 62px 0 14px;
+
+  display: flex;
+  align-items: center;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body > .row > .free-server-value {
+  height: 100%;
+  flex: 0 0 27px;
+  margin-left: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .table > .body > .row > .subscription-server-value {
+  height: 100%;
+  flex: 0 0 72px;
+  margin-left: 99px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .buy-offer-container {
+  width: 444px;
+  height: 323px;
+  margin-top: 20px;
+  margin-left: 3px;
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .buy-offer-container > .vito-box {
+  width: 402px;
+  height: 323px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: url("/public/assets/box-vito.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .buy-offer-container > .buy-action-container {
+  height: 110px;
+  flex: 0 0 180px;
+  margin-bottom: 57px;
+  position: relative;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .buy-offer-container > .buy-action-container > .price {
+  width: 167px;
+  height: 79px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 50px;
+  line-height: 58.59px;
+}
+
+.offer-section > .section-grid > .right-side-flexbox > .buy-offer-container > .buy-action-container > .button-buy {
+  width: 180px;
+  height: 40px;
+
+  border: 0;
+  border-radius: 7px;
+  background-color: #FCFF00;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
